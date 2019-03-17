@@ -1,0 +1,50 @@
+{
+  "extends": [
+    "tslint:recommended"
+  ],
+  "rules": {
+    "max-classes-per-file": [
+      true,
+      1
+    ],
+    "ordered-imports": [
+      true,
+      {
+        "import-sources-order": "any",
+        "named-imports-order": "lowercase-last"
+      }
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "singleline": "never"
+      }
+    ],
+    "typedef": [
+      true,
+      "call-signature",
+      "arrow-call-signature",
+      "parameter",
+      "arrow-parameter",
+      "property-declaration",
+      "variable-declaration",
+      "member-variable-declaration",
+      "object-destructuring",
+      "array-destructuring"
+    ],
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "object-literal-sort-keys": false,
+    "indent": [
+      true,
+      "spaces",
+      4
+    ],
+    "no-console": [
+      false
+    ]
+  }
+}
